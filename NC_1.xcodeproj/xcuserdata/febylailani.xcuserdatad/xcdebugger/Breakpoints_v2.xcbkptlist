@@ -3,4 +3,114 @@
    uuid = "16672734-2B14-428B-B3E6-96CBBE739BED"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NC_1/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - 96bfb9530f5587fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.label1.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - 205d929a27b823ef"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.label1.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - 86b6a16d7b142cf8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.label1.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - 23f3763e4fa6b228"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.label1.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - 2d17832a0c660813"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NC_1.ViewController"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "4488643F-A8DE-424E-A262-B4B277FA0E86 - f6ed49df6c772c10"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC_1.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NC_1.ViewController&gt;"
+                  moduleName = "NC_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/febylailani/Documents/NC_1/NC_1/NC_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "214">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
