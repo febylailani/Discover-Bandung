@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60801D4241612C80035257F /* NewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60801D3241612C80035257F /* NewPage.swift */; };
+		E60801FC241A616D0035257F /* launchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60801FB241A616D0035257F /* launchScreen.swift */; };
 		E68F6FEE24109222002F832D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F6FED24109222002F832D /* AppDelegate.swift */; };
 		E68F6FF024109222002F832D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F6FEF24109222002F832D /* SceneDelegate.swift */; };
 		E68F6FF224109222002F832D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F6FF124109222002F832D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E60801D3241612C80035257F /* NewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPage.swift; sourceTree = "<group>"; };
+		E60801FB241A616D0035257F /* launchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = launchScreen.swift; path = "../../NC_2/NC-2 day 3/NC-2 day 3/launchScreen.swift"; sourceTree = "<group>"; };
 		E68F6FEA24109222002F832D /* NC_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68F6FED24109222002F832D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68F6FEF24109222002F832D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				E68F6FF324109223002F832D /* Main.storyboard */,
 				E68F6FF624109223002F832D /* Assets.xcassets */,
 				E68F6FF824109223002F832D /* LaunchScreen.storyboard */,
+				E60801FB241A616D0035257F /* launchScreen.swift */,
 				E68F6FFB24109223002F832D /* Info.plist */,
+				E60801D3241612C80035257F /* NewPage.swift */,
 			);
 			path = NC_1;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				E68F6FF224109222002F832D /* ViewController.swift in Sources */,
 				E68F6FEE24109222002F832D /* AppDelegate.swift in Sources */,
+				E60801FC241A616D0035257F /* launchScreen.swift in Sources */,
 				E68F6FF024109222002F832D /* SceneDelegate.swift in Sources */,
+				E60801D4241612C80035257F /* NewPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

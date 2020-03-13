@@ -20,43 +20,49 @@ class ViewController: UIViewController, UISearchBarDelegate {
     @IBOutlet weak var labelName3: UILabel!
     @IBOutlet weak var labelName4: UILabel!
     @IBOutlet var mainView: UIView!
-    
-
+    @IBOutlet weak var backgroundColor: UIView!
+     
     override func viewDidLoad() {
          super.viewDidLoad()
         
         culinarySetup()
-//        recreationSetup()
-//        museumSetup()
-//        cultureSetup()
+        cornerView()
     }
     
     @IBAction func segmentedView(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             
             culinarySetup()
-            mainView.layer.backgroundColor = UIColor(red:122/255, green: 255/255, blue: 200/255, alpha: 1.0).cgColor
+//            mainView.layer.backgroundColor = UIColor(red:122/255, green: 255/255, blue: 200/255, alpha: 1.0).cgColor
         }
         if sender.selectedSegmentIndex == 1 {
             
             recreationSetup()
-            mainView.layer.backgroundColor = UIColor(red:95/255, green: 245/255, blue: 228/255, alpha: 0.96).cgColor
-            
+//            mainView.layer.backgroundColor = UIColor(red:95/255, green: 245/255, blue: 228/255, alpha: 0.96).cgColor
+//
         }
         if sender.selectedSegmentIndex == 2 {
         
             museumSetup()
-            mainView.layer.backgroundColor = UIColor(red:115/255, green: 232/255, blue: 255/255, alpha: 1.0).cgColor
+            
+//            mainView.layer.backgroundColor = UIColor(red:115/255, green: 232/255, blue: 255/255, alpha: 1.0).cgColor
         }
         if sender.selectedSegmentIndex == 3 {
        
             cultureSetup()
-            mainView.layer.backgroundColor = UIColor(red:158/255, green: 190/255, blue: 255/255, alpha: 1.0).cgColor
+            cornerView()
+//            mainView.layer.backgroundColor = UIColor(red:158/255, green: 190/255, blue: 255/255, alpha: 1.0).cgColor
         }
         
     }
    
-    
+    func cornerView() {
+        view.layer.shadowRadius = 8
+        view.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view.layer.shadowOpacity = 0.5
+        view.layer.cornerRadius = 20
+        view.layer.masksToBounds = true
+    }
     
     func culinarySetup() {
         label1.text = "Try Our Local Food!"
@@ -109,6 +115,12 @@ class ViewController: UIViewController, UISearchBarDelegate {
         picture3.setImage(UIImage(named: "udjo"), for: UIControl.State.normal)
         picture4.setImage(UIImage(named: "puppet"), for: UIControl.State.normal)
     }
+    
+    @IBAction func pictureContent(_ sender: UIButton) {
+        print("pictureoneloaded")
+        self.performSegue(withIdentifier: "secondScreen", sender: self)
+    }
+    
     
     @IBAction func emergencyGuide(_ sender: UIButton) {
         let alert = UIAlertController(title: "Emergency Contact", message:
